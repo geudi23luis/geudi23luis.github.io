@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Películas Locales</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Peliculas Gratis</h1>
+        <!-- Campo de búsqueda -->
+        <input type="text" id="search-input" placeholder="Buscar película...">
+    </header>
+    <main id="peliculas-container">
+        <!-- Aquí se mostrarán las películas con sus carátulas -->
+    </main>
+   
+    
+
+    <!-- Modal para reproducir el video -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-button" class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <video id="modal-video" controls></video>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
